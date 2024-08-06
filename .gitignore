@@ -1,0 +1,9 @@
+*.pkl
+*.spec
+*.manifest
+
+*spyderproject
+*spyproject
+
+*ropeproject
+
