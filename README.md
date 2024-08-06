@@ -1,1 +1,1 @@
-Movies Recommender system
+Movies Recommender App in Python
