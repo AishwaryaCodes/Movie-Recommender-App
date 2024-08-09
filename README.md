@@ -31,3 +31,6 @@ Click on "Get Recommendations" to view a list of recommended movies along with t
    ```bash
    git clone https://github.com/AishwaryaCodes/Movie-Recommender-App.git
 
+
+## Run Project
+Command: streamlit run app.py
