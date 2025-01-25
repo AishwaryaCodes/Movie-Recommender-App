@@ -16,7 +16,7 @@ Users wanted a quick, personalized, and visually appealing way to explore simila
 <br>
 **Solution**
 
-The Movies Recommender App solves this problem by providing:
+The Movies Recommender App solves this problem by providing:<br>
    1) Personalized Recommendations: Using a similarity-based recommendation model, the app suggests movies that align with the user's choice.<br>
    2) Visual Experience: It fetches and displays posters of recommended movies, offering users a richer browsing experience.<br>
    3) Ease of Use: Built on Streamlit, the app is simple, intuitive, and accessible, catering to users of all technical backgrounds.<br>
@@ -69,7 +69,7 @@ Visual Results: Showcases the posters of all recommended movies for an enhanced 
 
 **Future Scope**
 
-The Movies Recommender App has significant potential for further enhancements:
+The Movies Recommender App has significant potential for further enhancements:<br>
    1) User Login and Watchlist: Add user authentication and allow users to save recommended movies to a personal watchlist.<br>
    2) Recommendation Algorithms: Upgrade the recommendation engine to include collaborative filtering or deep learning-based models for improved accuracy.<br>
    3) Multilingual Support: Add support for movie recommendations and posters in multiple languages to cater to a global audience.<br>
