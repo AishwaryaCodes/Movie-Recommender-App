@@ -27,7 +27,7 @@ The Movies Recommender App solves this problem by providing:<br>
 - Get personalized movie recommendations based on the selected movie.
 - Visual Movie Posters: Displays high-quality posters of recommended movies for an engaging experience.
 <br>
-  
+<br> 
 **Tech Stack**
 
    1) Python - Implemented the core logic and backend functionality.<br>
@@ -41,7 +41,7 @@ The Movies Recommender App solves this problem by providing:<br>
    - main.py: Contains the main application logic, including functions for fetching movie posters and generating recommendations.
    - artifacts/: Stores pre-processed files (movie_list.pkl and similarity.pkl) used to calculate movie similarities and provide recommendations.
 <br>
-
+<br>
 **How It Works**
 
    1) Select a Movie: Choose a movie from the dropdown menu in the app.<br>
