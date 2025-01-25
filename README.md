@@ -17,9 +17,9 @@ Users wanted a quick, personalized, and visually appealing way to explore simila
 **Solution**
 
 The Movies Recommender App solves this problem by providing:
-   1) Personalized Recommendations: Using a similarity-based recommendation model, the app suggests movies that align with the user's choice.
-   2) Visual Experience: It fetches and displays posters of recommended movies, offering users a richer browsing experience.
-   3) Ease of Use: Built on Streamlit, the app is simple, intuitive, and accessible, catering to users of all technical backgrounds.
+   1) Personalized Recommendations: Using a similarity-based recommendation model, the app suggests movies that align with the user's choice.<br>
+   2) Visual Experience: It fetches and displays posters of recommended movies, offering users a richer browsing experience.<br>
+   3) Ease of Use: Built on Streamlit, the app is simple, intuitive, and accessible, catering to users of all technical backgrounds.<br>
 <br>
 
 **Features**
@@ -30,10 +30,10 @@ The Movies Recommender App solves this problem by providing:
   
 **Tech Stack**
 
-   1) Python - Implemented the core logic and backend functionality.
-   2) Streamlit - Built an interactive, user-friendly front-end interface.
-   3) TMDB API - Integrated to fetch movie details and high-quality posters dynamically.
-   4) Jupyter Notebook - Utilized for data preprocessing, exploration, and model development.
+   1) Python - Implemented the core logic and backend functionality.<br>
+   2) Streamlit - Built an interactive, user-friendly front-end interface.<br>
+   3) TMDB API - Integrated to fetch movie details and high-quality posters dynamically.<br>
+   4) Jupyter Notebook - Utilized for data preprocessing, exploration, and model development.<br>
 <br>
 
 **Project Structure**
@@ -44,9 +44,9 @@ The Movies Recommender App solves this problem by providing:
 
 **How It Works**
 
-   1) Select a Movie: Choose a movie from the dropdown menu in the app.
-   2) Get Recommendations: Click on the "Get Recommendations" button.
-   3) View Results: The app displays a list of similar movies along with their posters for a visually engaging experience.
+   1) Select a Movie: Choose a movie from the dropdown menu in the app.<br>
+   2) Get Recommendations: Click on the "Get Recommendations" button.<br>
+   3) View Results: The app displays a list of similar movies along with their posters for a visually engaging experience.<br>
 <br>
 
 **Screenshot**
@@ -70,9 +70,9 @@ Visual Results: Showcases the posters of all recommended movies for an enhanced 
 **Future Scope**
 
 The Movies Recommender App has significant potential for further enhancements:
-   1) User Login and Watchlist: Add user authentication and allow users to save recommended movies to a personal watchlist.
-   2) Recommendation Algorithms: Upgrade the recommendation engine to include collaborative filtering or deep learning-based models for improved accuracy.
-   3) Multilingual Support: Add support for movie recommendations and posters in multiple languages to cater to a global audience.
+   1) User Login and Watchlist: Add user authentication and allow users to save recommended movies to a personal watchlist.<br>
+   2) Recommendation Algorithms: Upgrade the recommendation engine to include collaborative filtering or deep learning-based models for improved accuracy.<br>
+   3) Multilingual Support: Add support for movie recommendations and posters in multiple languages to cater to a global audience.<br>
 
 <br>
 <br>
