@@ -1,5 +1,4 @@
 <div align="center">
-  <h1 style="font-family: Arial, sans-serif; color: #333;">Movies Recommender App</h1>
   <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
     <div style="flex: 1; padding: 20px; max-width: 600px; text-align: left;">
       <p style="font-size: 18px; color: #555; line-height: 1.6; margin-bottom: 20px;">
