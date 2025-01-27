@@ -1,92 +1,128 @@
-**Movies Recommender App**
+<div align="center">
+  <h1 style="font-family: Arial, sans-serif; color: #333;">Movies Recommender App</h1>
+  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
+    <div style="flex: 1; padding: 20px; max-width: 600px; text-align: left;">
+      <p style="font-size: 18px; color: #555; line-height: 1.6; margin-bottom: 20px;">
+        An intuitive and interactive web application designed to recommend movies based on a selected title. 
+        It leverages Python, Streamlit, and the TMDB API to provide visually appealing recommendations through movie posters.
+      </p>
+    </div>
+    <img src="Movie Recommender.jpg" alt="Movie Recommender" width="500" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  </div>
+</div>
 
-The Movies Recommender App is an intuitive and interactive web application I developed, designed to recommend movies based on a selected title. Leveraging the power of Python, Streamlit, and the TMDB API, this application enhances user experience by providing visually appealing recommendations through movie posters. The project showcases my ability to integrate APIs, preprocess data, and create user-friendly interfaces.
-<br>
-<br>
 
-**Problem Statement:**
+
+---
+
+## **Problem Statement**
 With the overwhelming number of movies available across streaming platforms, users often face difficulty in choosing what to watch next. Traditional methods of searching for recommendations can be time-consuming and do not provide a visually engaging experience.
-<br>
-<br>
 
-**Challenge:**
+
+
+---
+
+
+## **Challenge**
 Users wanted a quick, personalized, and visually appealing way to explore similar movies based on their preferences.
-<br>
-<br>
-<br>
-**Solution**
 
-The Movies Recommender App solves this problem by providing:<br>
-   1) Personalized Recommendations: Using a similarity-based recommendation model, the app suggests movies that align with the user's choice.<br>
-   2) Visual Experience: It fetches and displays posters of recommended movies, offering users a richer browsing experience.<br>
-   3) Ease of Use: Built on Streamlit, the app is simple, intuitive, and accessible, catering to users of all technical backgrounds.<br>
-<br>
+---
 
-**Features**
+## **Solution**
+The Movies Recommender App solves this problem by providing:
 
+1. **Personalized Recommendations:** Using a similarity-based recommendation model, the app suggests movies that align with the user's choice.
+2. **Visual Experience:** It fetches and displays posters of recommended movies, offering users a richer browsing experience.
+3. **Ease of Use:** Built on Streamlit, the app is simple, intuitive, and accessible, catering to users of all technical backgrounds.
+
+---
+
+## **Features**
 - Get personalized movie recommendations based on the selected movie.
 - Visual Movie Posters: Displays high-quality posters of recommended movies for an engaging experience.
-<br>
-<br> 
-**Tech Stack**
 
-   1) Python - Implemented the core logic and backend functionality.<br>
-   2) Streamlit - Built an interactive, user-friendly front-end interface.<br>
-   3) TMDB API - Integrated to fetch movie details and high-quality posters dynamically.<br>
-   4) Jupyter Notebook - Utilized for data preprocessing, exploration, and model development.<br>
-<br>
+---
 
-**Project Structure**
+## **Tech Stack**
+1. **Python:** Implemented the core logic and backend functionality.
+2. **Streamlit:** Built an interactive, user-friendly front-end interface.
+3. **TMDB API:** Integrated to fetch movie details and high-quality posters dynamically.
+4. **Jupyter Notebook:** Utilized for data preprocessing, exploration, and model development.
 
-   - main.py: Contains the main application logic, including functions for fetching movie posters and generating recommendations.
-   - artifacts/: Stores pre-processed files (movie_list.pkl and similarity.pkl) used to calculate movie similarities and provide recommendations.
-<br>
-<br>
-**How It Works**
+---
 
-   1) Select a Movie: Choose a movie from the dropdown menu in the app.<br>
-   2) Get Recommendations: Click on the "Get Recommendations" button.<br>
-   3) View Results: The app displays a list of similar movies along with their posters for a visually engaging experience.<br>
-<br>
+## **Project Structure**
+- `main.py`: Contains the main application logic, including functions for fetching movie posters and generating recommendations.
+- `artifacts/`: Stores pre-processed files (`movie_list.pkl` and `similarity.pkl`) used to calculate movie similarities and provide recommendations.
 
-**Screenshot**
+---
 
-Screenshot 1: <br>
-Homepage: The app's main page, featuring the title, dropdown menu for movie selection, and the "Get Recommendations"
-<img src="https://github.com/user-attachments/assets/5590ca4b-12d3-4829-af35-e7dc48fe6bc1" alt="image" width="700" height="500">
-<br>
+## **How It Works**
+1. **Select a Movie:** Choose a movie from the dropdown menu in the app.
+2. **Get Recommendations:** Click on the "Get Recommendations" button.
+3. **View Results:** The app displays a list of similar movies along with their posters for a visually engaging experience.
 
-Screenshot 2: <br>
+---
+
+## **Screenshots**
+
+### Screenshot 1:
+Homepage: The app's main page, featuring the title, dropdown menu for movie selection, and the "Get Recommendations."
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5590ca4b-12d3-4829-af35-e7dc48fe6bc1" alt="Homepage Screenshot" width="700">
+</div>
+
+### Screenshot 2:
 Recommendation Dropdown: Displays a curated list of recommended movies.
-<img src="https://github.com/user-attachments/assets/3a6531c7-6972-457a-861c-94ebdb94faa4" alt="image" width="700" height="500">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3a6531c7-6972-457a-861c-94ebdb94faa4" alt="Dropdown Screenshot" width="700">
+</div>
 
-<br>
-
-Screenshot 3: <br>
+### Screenshot 3:
 Visual Results: Showcases the posters of all recommended movies for an enhanced user experience.
-<img src="https://github.com/user-attachments/assets/29a3ad27-702b-4831-aeab-21f6a67c5429" alt="image" width="700" height="500">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/29a3ad27-702b-4831-aeab-21f6a67c5429" alt="Results Screenshot" width="700">
+</div>
 
+---
 
-**Future Scope**
+## **Future Scope**
+The Movies Recommender App has significant potential for further enhancements:
+1. **User Login and Watchlist:** Add user authentication and allow users to save recommended movies to a personal watchlist.
+2. **Recommendation Algorithms:** Upgrade the recommendation engine to include collaborative filtering or deep learning-based models for improved accuracy.
+3. **Multilingual Support:** Add support for movie recommendations and posters in multiple languages to cater to a global audience.
 
-The Movies Recommender App has significant potential for further enhancements:<br>
-   1) User Login and Watchlist: Add user authentication and allow users to save recommended movies to a personal watchlist.<br>
-   2) Recommendation Algorithms: Upgrade the recommendation engine to include collaborative filtering or deep learning-based models for improved accuracy.<br>
-   3) Multilingual Support: Add support for movie recommendations and posters in multiple languages to cater to a global audience.<br>
+---
 
-<br>
-<br>
+## **Setup Instructions**
 
-**Setup Instructions**
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/AishwaryaCodes/Movie-Recommender-App.git
+   ```
 
-Clone the Repository: git clone https://github.com/AishwaryaCodes/Movie-Recommender-App.git
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Install Dependencies: pip install -r requirements.txt
+3. **Add TMDB API Key:**
+   Replace the placeholder in the `fetch_poster` function with your TMDB API Key. You can generate your API key from the TMDB API website.
 
-Add TMDB API Key: Replace the placeholder in the fetch_poster function with your TMDB API Key. You can generate your API key from the TMDB API website.
+4. **Run the Application:**
+   ```bash
+   streamlit run app.py
+   ```
 
-Run the Application: streamlit run app.py
+5. **Access the App:**
+   Open the URL provided by Streamlit (e.g., `http://localhost:8501`) in your browser to interact with the app.
 
-Access the App: Open the URL provided by Streamlit (e.g., http://localhost:8501) in your browser to interact with the app.
+<br> 
+<br> 
 
+## **Enjoying Perfect Movie Picks**
+<div align="center">
+  <img src="users.jpg" alt="Users enjoying movie" width="700">
+</div>
 
+<div align="center" style="font-size: 18px; color: #555; margin-top: 30px;"> Thank you for exploring the Movies Recommender App.</div>
