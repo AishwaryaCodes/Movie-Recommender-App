@@ -1,15 +1,20 @@
 <div align="center">
-  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
-    <div style="flex: 1; padding: 20px; max-width: 600px; text-align: left;">
-      <p style="font-size: 18px; color: #555; line-height: 1.6; margin-bottom: 20px;">
-        An intuitive and interactive web application designed to recommend movies based on a selected title. 
-        It leverages Python, Streamlit, and the TMDB API to provide visually appealing recommendations through movie posters.
-      </p>
-    </div>
-    <img src="Movie Recommender.jpg" alt="Movie Recommender" width="500" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  </div>
+  <table>
+    <tr>
+      <!-- Text Section -->
+      <td style="text-align: left; vertical-align: top; padding: 20px; max-width: 600px;">
+        <p style="font-size: 18px; color: #555; line-height: 1.6;">
+          An intuitive and interactive web application designed to recommend movies based on a selected title. 
+          It leverages Python, Streamlit, and the TMDB API to provide visually appealing recommendations through movie posters.
+        </p>
+      </td>
+      <!-- Image Section -->
+      <td>
+        <img src="Movie Recommender.jpg" alt="Movie Recommender" width="400" style="border-radius: 10px;">
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 
 ---
