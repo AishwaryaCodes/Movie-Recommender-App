@@ -10,11 +10,12 @@
       </td>
       <!-- Image Section -->
       <td>
-        <img src="Movie Recommender.jpg" alt="Movie Recommender" width="400" style="border-radius: 10px;">
+        <img src="Movie Recommender.jpg" alt="Movie Recommender" style="border-radius: 10px; max-width: 100%; height: auto;">
       </td>
     </tr>
   </table>
 </div>
+
 
 
 ---
