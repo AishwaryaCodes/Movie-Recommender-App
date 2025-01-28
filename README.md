@@ -116,35 +116,33 @@ Showcases the posters of all recommended movies for an enhanced user experience.
 
 1. **Clone the Repository:**
    
-bash
+
    git clone https://github.com/AishwaryaCodes/Movie-Recommender-App.git
 
-<br>
+
 
 2. **Install Dependencies:**
    
-bash
+
    pip install -r requirements.txt
 
-<br>
 
 3. **Add TMDB API Key:**
    Replace the placeholder in the fetch_poster function with your TMDB API Key. You can generate your API key from the TMDB API website.
 
-<br>
 
 4. **Run the Application:**
    
-bash
+
    streamlit run app.py
 
-<br>
+
 
 5. **Access the App:**
    Open the URL provided by Streamlit (e.g., http://localhost:8501) in your browser to interact with the app.
 
 <br> 
-<br> 
+<br>
 
 
 ## **Enjoying Perfect Movie Picks App**
